@@ -1,6 +1,6 @@
 package homework9.regular;
 
-public class Singleton {
+public final class Singleton {
     private static Singleton instance;
     public String name;
 

@@ -1,6 +1,6 @@
 package homework9.threadSafe;
 
-public class ThreadSafeSingleton {
+public final class ThreadSafeSingleton {
     private static ThreadSafeSingleton instance;
     public int age;
 
